@@ -1,9 +1,15 @@
-    numpy
-    pandas
-    matplotlib
-    scikit-learn
-    scipy
-    seaborn
-    cython
-    numba
-    jupyter
+numpy
+pandas
+matplotlib
+scikit-learn
+scipy
+seaborn
+cython
+numba
+jupyter
+streamlit
+tensorflow
+keras
+pillow
+mediapipe
+opencv-contrib-python

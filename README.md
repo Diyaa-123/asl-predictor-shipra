@@ -72,10 +72,11 @@ For the last option, the local dataset can be uploaded to your GDrive, and from 
 You should create a python environment (e.g., with [conda](https://docs.conda.io/en/latest/)) and install the dependencies listed in the [`requirements.txt`](requirements.txt) file; no specific versions are needed. A short summary of commands required to have all in place is the following:
 
 ```bash
-conda create -n asl tensorflow python=3.7.13
-conda activate asl
-conda install pip
-pip install -r requirements.txt
+python -m venv .venv
+.venv\Scripts\Activate.ps1
+python -m pip install --upgrade pip
+python -m pip install -r requirements.txt
+python -m streamlit run app.py
 ```
 
 ## Discussion on the Used Models
